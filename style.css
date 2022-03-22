@@ -36,32 +36,38 @@ header nav ul
 }
 #container
 {
+    margin: auto;
+}
+.firstPart
+{
     width: 90%;
     margin: auto;
 }
 .firstBigTitle
 {
     text-align: center;
+
 }
-.firstBigTitle h1
+.firstBigTitle div h1
 {
     font-size: 4em;
     color: var(--gray-dark);
     text-align: center;
 }
-.firstBigTitle h1 span 
+.firstBigTitle div h1 span 
 {
     color: var(--green);
-    overflow-wrap: normal;
+    display: inline-block;
     
 }
-.firstBigTitle p
+.firstBigTitle div p
 {
     color: var(--blue-dark);
     text-align: center;
     font-size: 2em;
+    margin: 20px 10px 50px 10px;
 }
-.firstBigTitle a
+.firstBigTitle  a
 {
     padding: 10px 40px;
     color: var(--white);
@@ -71,14 +77,119 @@ header nav ul
     border-radius: 5px;
     display: inline;
     align-content: center;
-    background-image: url(images/banner_wave.svg) ;
+    background-image: url(images/button_wave.svg) ;
     background-size: cover;
     background-repeat: no-repeat;
+   
 }
-.firstBigTitle picture source img
-{
-    width: 200px;
-    height: 200px;
-    
 
+.burgerPicture
+{
+    width: 90%;
+    margin: 50px 25px;
+
+
+}
+.homeFreshProducts
+{
+    text-align: center;
+    background-color: var(--green-light);
+}
+.homeFreshProducts h2
+{
+    font-size: 3em;
+    color: var(--green);
+    text-align: center;
+}
+.homeFreshProducts div p 
+{
+    text-align: center;
+    color: var(--blue-dark);
+    margin: 20px 10px 50px 10px;
+}
+.homeFreshProducts div a
+{
+    margin-top: 20px;
+    padding: 10px 40px;
+    color: var(--white);
+    background-color: var(--green);
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline;
+    align-content: center;
+    background-image: url(images/button_wave.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.containerWorks
+{
+    width: 90%;
+    margin: auto;
+}
+.works
+{
+    text-align: center;
+}
+.containerWorks h2
+{
+    font-size: 3em;
+    color: var(--green);
+    text-align: center;
+}
+.works div h3
+{
+    font-size: 2em;
+
+}
+.works div p 
+{
+    color: var(--blue-dark);
+    padding-bottom: 50px;
+}
+.onlineOrders
+{
+    text-align: center;
+}
+.onlineOrders h3 
+{
+    font-size: 2em;
+}
+.onlineOrders p 
+{
+    color: var(--blue-dark);
+    padding-bottom: 50px;
+}
+.delivery
+{
+    text-align: center;
+}
+.delivery h3
+{
+    font-size: 2em;
+}
+.delivery p 
+{
+    color: var(--blue-dark);
+    padding-bottom: 50px;
+}
+footer 
+{
+    background-color: var(--green-light);
+    height: 100px;
+
+}
+
+footer h4 
+{
+    color: var(--green-dark);
+    padding: 20px 0 0 10px;
+}
+footer div a 
+{
+    text-decoration: none;
+    color: var(--blue-dark);
+    font-weight: bold;
+    padding-left: 10px;
 }

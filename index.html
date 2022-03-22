@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediastyle.css">
     <title>Food App</title>
 </head>
 <body>
@@ -30,58 +31,70 @@
     <main id="container">
         <section class="firstPart">
             <div class="firstBigTitle">
-                <h1>Beautiful food & takeaway,<span>delivered</span> to your door.</h1>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat non molestias accusamus omnis quia modi rem cupiditate quo corporis beatae totam animi necessitatibus dolorem odio neque quis, recusandae aliquid!</p>
-                <a href="#">Place an Order</a>
+                <div>
+                    <h1>Beautiful food & takeaway,<span>delivered</span> to your door.</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium quaerat non molestias accusamus omnis quia modi rem cupiditate quo corporis beatae totam animi necessitatibus dolorem odio neque quis, recusandae aliquid!</p>
+                    
+                </div>
                 <picture>
                     <source srcset="images/hero_image.png"
-                    media="(min-width: 800px)"><img src="images/hero_image.png" alt="">
+                    media="(min-width: 800px)"><img  class="burgerPicture" src="images/hero_image.png" alt="">
                 </picture>
             </div>
         </section>
         <section>
-            <div>
-                <h2>The home of fresh products</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam aliquam earum adipisci quam quod repellendus aut eum. Maiores impedit laudantium voluptatem esse amet iure maxime labore! Excepturi, ullam eveniet.</p>
-                <a href="#">Learn about us</a>
-                <picture>
-                    <source srcset="images/eat.png"
-                    media="(min-width: 800px)"><img src="images/eat.png" alt="">
-                </picture>
+            <div class="homeFreshProducts">
+                <div>
+                    <div class="flexColumn">
+                        <h2>The home of fresh products</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis ullam aliquam earum adipisci quam quod repellendus aut eum. Maiores impedit laudantium voluptatem esse amet iure maxime labore! Excepturi, ullam eveniet.</p>
+                        <a href="#">Learn about us</a>
+                    </div>
+                    <picture>
+                        <source srcset="images/eat.png"
+                        media="(min-width: 800px)"><img class="burgerPicture" src="images/eat.png" alt="">
+                    </picture>
+                </div>   
             </div>
         </section>
-        <section>
-            <div>
-                <h2>How it works</h2>
-                <picture>
-                    <source srcset="images/step_01.png"
-                    media="(min-width: 800px)"><img src="images/step_01.png" alt="">
-                </picture>
-                <h3>Adapt your menu items</h3>
-                <p>Easily adapt your menu using the webflow CMS and allow customers to browse your items</p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="images/step_02.png"
-                    media="(min-width: 800px)"><img src="images/step_02.png" alt="">
-                </picture>
-                <h3>Accept online orders & takeout</h3>
-                <p>Let your customers order and pay via the powerful ecommerce system, or simple let them call your store</p>
-            </div>
-            <div>
-                <picture>
-                    <source srcset="images/step_03.png"
-                    media="(min-width: 800px)"><img src="images/step_03.png" alt="">
-                </picture>
-                <h3>Manage delivery or takeout</h3>
-                <p>Manage your own logistics and take orders simply through the ecommerce system</p>
+        <section class="containerWorks">
+            <h2>How it works.</h2>
+            <div class="works">
+                
+                <div>
+                    <picture>
+                        <source srcset="images/step_01.png"
+                            media="(min-width: 800px)"><img class="burgerPicture" src="images/step_01.png" alt="">
+                        </picture>
+                        <h3>Adapt your menu items</h3>
+                        <p>Easily adapt your menu using the webflow CMS and allow customers to browse your items</p>
+                    
+                </div >
+                <div class="onlineOrders">
+                    <picture>
+                        <source srcset="images/step_02.png"
+                        media="(min-width: 800px)"><img class="burgerPicture" src="images/step_02.png" alt="">
+                    </picture>
+                    <h3>Accept online orders & takeout</h3>
+                    <p>Let your customers order and pay via the powerful ecommerce system, or simple let them call your store</p>
+                </div>
+                <div class="delivery">
+                    <picture>
+                        <source srcset="images/step_03.png"
+                        media="(min-width: 800px)"><img class="burgerPicture" src="images/step_03.png" alt="">
+                    </picture>
+                    <h3>Manage delivery or takeout</h3>
+                    <p>Manage your own logistics and take orders simply through the ecommerce system</p>
+                </div>
             </div>
         </section>
     </main>
     <footer>
         <h4>Powered by FoodApp</h4>
-        <a href="#">CVG</a>
-        <a href="#">About us</a>
+        <div>
+            <a href="#">CVG</a>
+            <a href="#">About us</a>
+        </div>
     </footer>
 </body>
 </html>

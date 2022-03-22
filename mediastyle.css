@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Libre+Baskerville:wght@400;700&family=Nunito:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=PT+Sans:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}
+
+@media screen and (min-width:800px) {
+    
+    header div 
+    {
+        display: block;
+        background-color: var(--green);
+        background-image: url(images/banner_wave.svg);
+        top: 0;
+        right: 0;
+        left: 0;
+        height: 40px;
+    }
+    header div p 
+    {
+        color: var(--gray-light);
+        text-align: center;
+        margin: 0;
+        padding: 10px 10px;
+    }
+    header nav ul 
+    {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        text-decoration: none;
+        gap: 20px;
+        font-weight: bold;
+    }
+    header nav svg 
+    {
+        display: none;
+    }
+    header nav 
+    {
+        align-items: baseline;
+    }
+    header nav img 
+    {
+        margin-top: 10px;
+    }
+    .firstPart
+    {
+        width: 60%;
+        margin: auto;
+    }
+    .firstBigTitle
+    {
+        display: flex;
+        gap: 200px;
+        
+    }
+    .firstBigTitle div
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 150px;
+        
+    }
+    .firstBigTitle div h1 
+    {
+        text-align: start;
+        font-size: 3em;
+    }
+    .firstBigTitle div p 
+    {
+        text-align: start;
+        font-size: 1.5em;
+    }
+    .firstBigTitle  a 
+    {
+        margin-bottom: 50px;
+    }
+
+    .burgerPicture
+    {
+        width: 400px;
+        height: 400px;
+        margin-top: 150px;
+        object-fit: cover;
+    }
+    .homeFreshProducts
+    {
+        display: flex;
+        text-align: start;
+    }
+    .homeFreshProducts div 
+    {
+        display: flex;
+        width: 60%;
+        margin: auto;
+    }
+    
+    .homeFreshProducts div p 
+    {
+        text-align: start;
+    }
+    
+    .flexColumn
+    {
+        display: flex;
+        flex-direction: column;
+        text-align: start;
+        align-items: baseline;
+    }
+    
+    .flexColumn p
+    {
+        text-align: start;
+        font-size: 1.5em;
+    }
+    .works
+    {
+        display: grid;
+        grid-auto-flow: column;
+        gap: 100px;
+        align-items: center;
+        justify-items: center;
+    }
+
+    .works div h3 
+    {
+        font-size: 1em;
+    }
+    footer 
+    {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: baseline;
+    }
+}
