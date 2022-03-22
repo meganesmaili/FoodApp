@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Libre+Baskerville:wght@400;700&family=Nunito:wght@200;300;400;500;600;700&family=Open+Sans:wght@300;400;500;600;700;800&family=PT+Sans:wght@400;700&family=Ubuntu:wght@300;400;500;700&display=swap');
+
+:root {
+    --white: #ffffff;
+    --gray-light: #f5fbfc;
+    --gray-dark: #08090a;
+    --green: #35b8be;
+    --green-dark: #1b9097;
+    --green-light: #f5fbfc;
+    --blue-dark: #546285;
+}
+body
+{
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
+}
+header div 
+{
+    display: none;
+}
+header nav img 
+{
+    width: 50px;
+    height: 50px;
+}
+
+nav
+{
+    display: flex;
+    justify-content: space-around;
+}
+header nav ul 
+{
+    display: none;
+}
+#container
+{
+    width: 90%;
+    margin: auto;
+}
+.firstBigTitle
+{
+    text-align: center;
+}
+.firstBigTitle h1
+{
+    font-size: 4em;
+    color: var(--gray-dark);
+    text-align: center;
+}
+.firstBigTitle h1 span 
+{
+    color: var(--green);
+    overflow-wrap: normal;
+    
+}
+.firstBigTitle p
+{
+    color: var(--blue-dark);
+    text-align: center;
+    font-size: 2em;
+}
+.firstBigTitle a
+{
+    padding: 10px 40px;
+    color: var(--white);
+    background-color: var(--green);
+    list-style: none;
+    text-decoration: none;
+    border-radius: 5px;
+    display: inline;
+    align-content: center;
+    background-image: url(images/banner_wave.svg) ;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.firstBigTitle picture source img
+{
+    width: 200px;
+    height: 200px;
+    
+
+}
